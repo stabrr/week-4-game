@@ -11,3 +11,12 @@ h1{
 	width: 300px;
     height: 300px;
 }
+
+#objective{
+	font-size: 110%;
+	padding: 0px 30px 0px 30px;
+}
+
+#gamePlay{
+	padding: 0px 30px 0px 30px;
+}
