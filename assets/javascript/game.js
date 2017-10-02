@@ -19,8 +19,9 @@ function getRandomInt (min, max) {
 //  var newNumbers = numberOptions.sort(function() { return 0.5 - Math.random() });
   console.log(changeNumbers);
   for (var i = 1; i < 5; i++){
-    imageCrystal.attr("data-crystalvalue", changeNumbers[i]);
-
+    //imageCrystal.attr("data-crystalvalue", changeNumbers[i]);
+    ($(".crystal-image" + i).attr("data-crystalvalue",changeNumbers[i]));
+    console.log("chnumi: " + changeNumbers[i]);
   }
 
  }
@@ -99,5 +100,5 @@ function getRandomInt (min, max) {
       $("#number-to-guess").text(targetNumber);
       
     }
-    ($(".crystal-image1").attr("data-crystalvalue",20));
+//    ($(".crystal-image1").attr("data-crystalvalue",20));
   });

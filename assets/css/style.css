@@ -1,5 +1,10 @@
 body {
 	font-family: 'Concert One', cursive;
+	background-color: #5784c3;
+}
+
+h1{
+	text-align: center;
 }
 
 .crystal-image {
