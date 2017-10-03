@@ -8,15 +8,16 @@ h1{
 }
 
 .crystal-image {
-	width: 300px;
-    height: 300px;
+	width: 200px;
+    height: 200px;
 }
 
 #objective{
 	font-size: 110%;
-	padding: 0px 30px 0px 30px;
 }
 
-#gamePlay{
-	padding: 0px 30px 0px 30px;
+p{
+	padding: 0px 75px 0px 75px;
 }
+
+
