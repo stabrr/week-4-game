@@ -19,7 +19,7 @@ function getRandomInt (min, max) {
 //this will take the shuffled array and asign values to the crystals
  function assignCrystalValue (changeNumbers){
   console.log(changeNumbers);
-  for (var i = 1; i < 5; i++){
+  for (var i = 0; i < 4; i++){
     ($(".crystal-image" + i).attr("data-crystalvalue",changeNumbers[i]));
     console.log("chnumi: " + changeNumbers[i]);
   }
@@ -37,7 +37,7 @@ function getRandomInt (min, max) {
  }
 
   // Next we create a for loop to create 4 crystals and two classes one style one for value
-    for (var i = 1; i < 5; i++) {
+    for (var i = 0; i < 4; i++) {
     // For each iteration, we will create an imageCrystal
     var imageCrystal = $("<img>");
 
